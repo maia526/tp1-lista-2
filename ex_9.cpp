@@ -13,7 +13,7 @@ int main() {
     printf("\n\nPeca: ");
     scanf("%c", &peca);
     printf("\nQuantidade: ");
-    scanf("%d", qntd);
+    scanf("%d", &qntd);
 
     if (peca == 't')
         preco = (qntd * 0.25);
